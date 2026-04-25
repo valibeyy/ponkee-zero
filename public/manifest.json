@@ -1,0 +1,17 @@
+{
+  "name": "CartPilot",
+  "short_name": "CartPilot",
+  "description": "Premium, mobile-first grocery lists + monthly budget tracking.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#E53935",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

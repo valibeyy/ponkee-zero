@@ -1,12 +1,12 @@
 import type { Config } from "tailwindcss";
 
 export default {
-  content: ["./index.html", "./src/**/*.{ts,tsx}"],
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./context/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
         sans: [
-          '"Plus Jakarta Sans"',
+          "var(--font-sans)",
           "ui-sans-serif",
           "system-ui",
           "Segoe UI",
@@ -18,19 +18,19 @@ export default {
       },
       colors: {
         brand: {
-          primary: "#3b82f6",
-          accent: "#0d9488",
-          ink: "#0f172a",
+          primary: "#E53935",
+          ink: "#0a0a0a",
+          paper: "#ffffff",
         },
       },
       boxShadow: {
-        soft: "0 1px 2px rgba(15, 23, 42, 0.06)",
-        card: "0 18px 50px -28px rgba(15, 23, 42, 0.18), 0 8px 24px -18px rgba(15, 23, 42, 0.08)",
-        glow: "0 0 0 1px rgba(59, 130, 246, 0.12), 0 20px 60px -24px rgba(59, 130, 246, 0.25)",
+        soft: "0 1px 2px rgba(10, 10, 10, 0.06)",
+        card: "0 22px 60px -34px rgba(10, 10, 10, 0.22), 0 10px 28px -18px rgba(10, 10, 10, 0.10)",
+        glow: "0 0 0 1px rgba(229, 57, 53, 0.14), 0 26px 70px -28px rgba(229, 57, 53, 0.22)",
       },
       backgroundImage: {
         "mesh-light":
-          "radial-gradient(900px 420px at 12% -10%, rgba(59,130,246,0.14), transparent 55%), radial-gradient(700px 380px at 92% 0%, rgba(13,148,136,0.12), transparent 50%), radial-gradient(520px 320px at 50% 110%, rgba(15,23,42,0.04), transparent 55%)",
+          "radial-gradient(900px 420px at 12% -10%, rgba(229,57,53,0.16), transparent 55%), radial-gradient(700px 380px at 92% 0%, rgba(10,10,10,0.10), transparent 52%), radial-gradient(520px 320px at 50% 110%, rgba(10,10,10,0.04), transparent 55%)",
       },
     },
   },

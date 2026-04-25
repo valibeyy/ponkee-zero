@@ -7,3 +7,14 @@ dist
 *.log
 .vite
 *.tsbuildinfo
+
+# Next.js
+.next
+out
+
+# PWA (next-pwa)
+public/sw.js
+public/workbox-*.js
+public/worker-*.js
+public/fallback-*.js
+.vercel

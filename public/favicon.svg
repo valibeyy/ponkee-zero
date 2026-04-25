@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="8" fill="#0f172a"/>
-  <circle cx="16" cy="16" r="9" stroke="#38bdf8" stroke-width="2" opacity="0.9"/>
-  <path d="M12 21V11h4.2c2.1 0 3.4 1.1 3.4 2.9 0 1.8-1.3 2.9-3.4 2.9H14.2V21H12zm2.2-6.3V15h2c1 0 1.6-.5 1.6-1.3 0-.8-.6-1.3-1.6-1.3h-2z" fill="#f8fafc"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CartPilot">
+  <rect width="64" height="64" rx="18" fill="#ffffff"/>
+  <path d="M18 22h30l-2 18H24l-4-18Z" fill="#0a0a0a"/>
+  <path d="M14 18h8l2 10" stroke="#0a0a0a" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <circle cx="26" cy="46" r="4" fill="#0a0a0a"/>
+  <circle cx="40" cy="46" r="4" fill="#0a0a0a"/>
+  <path d="M10 30l14-4" stroke="#E53935" stroke-width="4" stroke-linecap="round"/>
+  <path d="M9 38l16-5" stroke="#E53935" stroke-width="4" stroke-linecap="round"/>
+  <path d="M10 46l14-6" stroke="#E53935" stroke-width="4" stroke-linecap="round"/>
 </svg>
